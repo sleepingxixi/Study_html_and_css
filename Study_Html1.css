@@ -1,0 +1,30 @@
+#text1{
+	width:200px;
+	height:100px;
+	background: #ddd;
+	border-bottom:dotted 10px yellow;
+}
+#box{
+		width:100px;
+		height:100px;
+		transition:2s;
+		border:10px solid green;
+		background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523102132950&di=2e5e42b4e56d0ce82ad2d50297a9a6f0&imgtype=0&src=http%3A%2F%2Fpic6.nipic.com%2F20100330%2F1295091_132645563343_2.jpg);
+		border-radius: 50%;
+}
+#list1{
+	width: 0;
+	height: 0;
+	border-top:solid 100px #fff;
+	border-right: solid 100px red;
+	border-bottom: solid 100px blue;
+	border-left:solid 100px pink;
+}
+#font1{
+	width:500px;
+	height:300px;
+	border:1px solid #ddd;
+	margin:50px auto;
+	font-size: 14px;
+	/*font-family: 微软雅黑;*/
+}

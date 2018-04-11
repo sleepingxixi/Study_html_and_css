@@ -1,0 +1,32 @@
+<!DUCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Layout1</title>
+	<style>
+		.body {width: 500px; margin: 100px auto; border:10px solid #ccc;}
+		.clear:after{content:''; display: block;clear:both;}
+		.clear{zoom:1;}
+		.left{width: 200px; height:400px; background: #77aa11; float: left;}
+		.right{width:300px;float: left;}
+		.right .top{height: 80px;background: #ff9900;}
+		.center .left1{height:165px; width: 150px;background: #ff6699;float: left;}
+		.center .right1{height:165px; width: 150px;background: #44ffcc;float: left;}
+		.right .bottom{height: 155px; background: #336699;clear:both;}
+	</style>
+</head>
+<body>
+<div class="body">
+	<div class="left"></div>
+	<div class="right">
+		<div class="top"></div>
+		<div class="center">
+			<div class="left1"></div>
+			<div class="right1"></div>
+		</div>
+		<div class="bottom"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
