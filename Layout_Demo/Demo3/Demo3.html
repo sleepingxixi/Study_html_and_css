@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Demo3</title>
+<style>
+body,ul,h2{margin: 0;padding: 0;font-family: "宋体";}
+li{list-style: none}
+a{text-decoration: none;color: #333;}
+img{border: none; vertical-align: top;}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear: both;}
+.wrap{width: 376px;margin: 30px auto;padding-top: 11px;background: #f4fafb;}
+.head{height: ;background: url(img3/headBg.gif) no-repeat;}
+/*此处text-indent表达的意思是首行缩进*/
+.title{line-height: 24px; padding-top:1px; font-size: 12px;color: #294852;text-indent: 33px;background: url(img3/titleBg.gif) no-repeat 9px 6px;}
+.picList{padding-top: 16px;}
+/*li本身没有浮动，加入浮动之后需要清浮动，以下padding-right是为了给右边添加一个光碟的背景，以下是统一水平下的浮动，会出现双边距bug，需要添加display进行处理*/
+.picList li{width: 91px; padding-right: 17px;margin: 0 8px; float: left; display: right;background: url(img3/liBg.gif) no-repeat right 17px;}
+.picList a{display: block;}
+.picList li img{border: 1px solid #c8c4d3;padding:2px; background: #fff;}
+.picList strong{display: block;text-align: center;padding-top: 5px; font:normal 12px/22px "宋体";}
+.textList{padding: 0 27px; font:normal 12px/22px "宋体";}
+.textList li{background: url(img3/textListBg.gif) no-repeat 0 10px;text-indent: 14px;}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+	<div class="head">
+		<h2 class="title">华语谍报</h2>
+	</div>
+	<ul class="picList clear">
+		<li>
+			<a href="#">
+				<img src="img3/pic.gif" alt="海报"/>
+				<strong>大叔</strong>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="img3/pic.gif" alt="海报"/>
+				<strong>大叔</strong>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="img3/pic.gif" alt="海报"/>
+				<strong>大叔</strong>
+			</a>
+		</li>
+	</ul>
+	<ul class="textList">
+		<li>
+			<a href="#">化妆还是伪装，港三区美亚版《最强喜事》</a>
+		</li>
+		<li>
+			<a href="#">化妆还是伪装，港三区美亚版《最强喜事》</a>
+		</li>
+		<li>
+			<a href="#">化妆还是伪装，港三区美亚版《最强喜事》</a>
+		</li>
+	</ul>
+</div>
+
+</body>
+</html>
