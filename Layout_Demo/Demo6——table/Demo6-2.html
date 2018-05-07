@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>模拟一个邮箱注册表单</title>
+	<style type="text/css">
+		table{width: 960px; border-collapse: collapse;margin:30px auto;}
+		td,a{padding:0;margin:0;}
+		a{text-decoration: none;}
+		img{border:0;display: block;}
+		thead tr{background: #f9f9f9}
+		thead td{height: 80px;}
+		thead a{font-size: 12px;line-height: 80px;text-align: right;}
+		.more{display: block;float: right;}
+		/*.form-style{width: 450px;height: 420px;padding-left:59px;padding-right: 136px;font-size: 14px;font-family: "微软雅黑"}*/
+		.form-style{font-size: 14px;font-family: "微软雅黑"}
+		.form-style table{width: 430px;height:450px;}
+		.form-style span{font-size: 12px;font-family: "微软雅黑";color:#999;}
+		input[name="email"]{
+			width: 230px;
+			color: #999;
+		}
+		input[type="submit"]{
+			text-decoration: none;
+			height: 37px;
+			width: 119px;
+			border: none;
+			background: url(img/demo2-8.jpg) no-repeat;
+			color: #fff;
+		}
+		input[type="password"]{
+			width: 330px;
+		}
+		input[name="check"]{
+			width: 200px;
+		}
+		.form-style a p{font-size: 12px;font-family: "微软雅黑";}
+	</style>
+</head>
+<body>
+<table>
+	<thead>
+		<tr>
+			<td width="127px"><img src="img/demo2-1.jpg" alt="brand"/></td>
+			<td width="127px"><img src="img/demo2-2.jpg" alt="brand"/></td>
+			<td width="147px"><img src="img/demo2-3.jpg" alt="brand"/></td>
+			<td width="241px" style="font-size: 18px;">中国第一大电子邮件服务商</td>
+			<td width="318px">
+				<div class="more">
+					<a href="#">了解更多</a>&nbsp;|&nbsp;<a href="#">反馈意见</a>
+				</div>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td colspan="5" height="38px" width="960px"><img src="img/demo2-4.jpg" alt="brand"/></td>
+		</tr>
+		<tr>
+			<td height="547px" colspan="4">
+				<form class="form-style">
+					<table>
+						<tr>
+							<td ></td>
+							<td height="100px" colspan="2"><img src="img/demo2-9.jpg" alt=""/>
+							</td>
+						</tr>
+						<tr>
+							<td width="87px"><span style="color:red">*</span>邮件地址</td>
+							<td width="343px" colspan="2"><input type="text" name="email" value="建议用手机号码注册"/>&nbsp;@&nbsp;<select><option>163.com</option><option>qq.com</option><option>126.com</option></select>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">
+							<span>6~18个字符,可使用字符、下划线、数字，需以字符开头</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span style="color:red">*</span>密码</td>
+							<td colspan="2"><input type="password" name=""/>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">
+							<span>6~16个字符,区分大小写</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span style="color:red">*</span>确认密码</td>
+							<td colspan="2"><input type="password" name=""/>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">
+							<span>再次填入密码</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span style="color:red">*</span>验证码</td>
+							<td><input type="text" name="check">
+							</td>
+							<td><a href="#"><img src="img/demo2-7.jpg" alt=""/></a>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+							<span>请填写图片中的字符，区分大小写</span>
+							</td>
+							<td>
+							<a href="#"><p>看不清楚？换张图片</p></a>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2"> 
+							<input type="checkbox"/><span>同意<a href="#">“服务条款”</a>和<a href="#">“隐私权相关政策”</a></span>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2" height="50px"> 
+							<input type="submit" name="" value="立即注册">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+			<td width="316px" height="547px"><img src="img/demo2-5.jpg" alt="brand"/></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td width="960px" height="52px" colspan="5"><img src="img/demo2-6.jpg" alt="brand"/></td>
+		</tr>
+	</tfoot>
+
+</table>
+
+</body>
+</html>

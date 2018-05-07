@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>css滑动门例子</title>
+	<style type="text/css">
+		body{margin: 0;padding: 0;background: #000;}
+		.btn{width: 100px;background: url(img/btn.png) repeat-x; float: left; margin-left: 10px; margin-top: 30px;}
+		.btnL{background: url(img/btnL.png) no-repeat left 0;}
+		.btnR{height: 80px;background: url(img/btnR.png) no-repeat right 0;}
+		/*三层嵌套适合扩展性要求高，图片大的情况，并且文字需要放在最内层*/
+	</style>
+</head>
+<body>
+<div class="btn">
+	<div class="btnL">
+		<div class="btnR"></div>
+	</div>
+</div>
+<div class="btn">
+	<div class="btnL">
+		<div class="btnR"></div>
+	</div>
+</div>
+<div class="btn">
+	<div class="btnL">
+		<div class="btnR"></div>
+	</div>
+</div>
+</body>
+</html>

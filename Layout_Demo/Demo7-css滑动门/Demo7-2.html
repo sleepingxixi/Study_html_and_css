@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>一个完整的导航栏</title>
+	<style type="text/css">
+	body,ul{margin:0;pading:0;background: #101015;}
+	li{list-style: none;}
+	a{text-decoration: none;}
+	.nav{;background: #101015 url(img/navL.png) no-repeat left 0;margin:20px;float: left;}
+	.navR{background: url(img/navR.png) no-repeat right 0; float: left;padding: 4px 4px 0 3px;}
+	.navR li{float: left; padding-left: 1px;}
+	.navR a{background: url(img/btn2.png) no-repeat;float: left;}
+	.navR span{background: url(img/btnR.png) no-repeat right 0;height: 31px; font-size: 14px; line-height: 30px;color: #fff;padding: 0 18px;float: left;}
+	.navR a:hover{background-image: url(img/hoverA.png);}
+	.navR a:hover span{background-image: url(img/hoverR.png);}
+	</style>
+</head>
+<body>
+<div class="nav">
+	<ul class="navR">
+		<li>
+			<a href="#">
+				<span>MiaoV</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>课程</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>关于我们</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span>加入MiaoV</span>
+			</a>
+		</li>
+</div>
+</body>
+</html>
